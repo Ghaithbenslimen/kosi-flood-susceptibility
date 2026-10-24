@@ -15,13 +15,3 @@ Prédiction de la susceptibilité aux inondations sur le **Kosi Megafan** (Bihar
 - 4 niveaux : Très faible / Faible / Élevé / Très élevé
 - Interface Streamlit interactive (carte cliquable + import CSV + saisie manuelle)
 
-## Structure
-projet_kosi/
-├── step1_raster_to_table.ipynb # Raster → Tableau
-├── step3_improved.ipynb # Modélisation (Tier 1)
-├── step7_cartography_improved.ipynb # Cartographie
-├── prediction.ipynb # Tests de prédiction
-├── streamlit_app.py # Interface Streamlit
-├── data/processed/ # Modèles .pkl + CSV
-├── outputs/ # Cartes .tif + PNG
-└── assets/ # Images hero
