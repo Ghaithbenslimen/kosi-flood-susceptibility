@@ -1,0 +1,27 @@
+# Environnements
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Données brutes (trop lourdes pour GitHub)
+data/raw/
+*.tif
+*.tiff
+*.tfw
+*.ovr
+*.aux.xml
+*.vat.dbf
+*.vat.cpg
+
+# Cartes intermédiaires (optionnel - décommente si tu ne veux pas les partager)
+# outputs/*.tif
+# outputs/overlay_*.png
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
